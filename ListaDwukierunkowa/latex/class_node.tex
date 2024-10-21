@@ -1,26 +1,71 @@
-\doxysection{Node Class Reference}
+\doxysection{Dokumentacja klasy Node}
 \hypertarget{class_node}{}\label{class_node}\index{Node@{Node}}
-\doxysubsubsection*{Public Member Functions}
+
+
+Klasa \doxylink{class_node}{Node}.  
+
+
+
+
+{\ttfamily \#include $<$Node.\+h$>$}
+
+\doxysubsubsection*{Metody publiczne}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{class_node_a2c5fe4ecef1aa9623d740582b1425c16}\label{class_node_a2c5fe4ecef1aa9623d740582b1425c16} 
-{\bfseries Node} (int value)
+\mbox{\hyperlink{class_node_a2c5fe4ecef1aa9623d740582b1425c16}{Node}} (int \mbox{\hyperlink{class_node_aaa0cd30d78a90c5a6ab64eb3d58b8f87}{value}})
 \end{DoxyCompactItemize}
-\doxysubsubsection*{Public Attributes}
+\doxysubsubsection*{Atrybuty publiczne}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{class_node_aaa0cd30d78a90c5a6ab64eb3d58b8f87}\label{class_node_aaa0cd30d78a90c5a6ab64eb3d58b8f87} 
-int {\bfseries value}
+int \mbox{\hyperlink{class_node_aaa0cd30d78a90c5a6ab64eb3d58b8f87}{value}}
 \item 
-\Hypertarget{class_node_ae64451cd6c118b6fe8369cb36bc9af06}\label{class_node_ae64451cd6c118b6fe8369cb36bc9af06} 
-\mbox{\hyperlink{class_node}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries next\+Node}
+\mbox{\hyperlink{class_node}{Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_node_ae64451cd6c118b6fe8369cb36bc9af06}{next\+Node}}
 \item 
-\Hypertarget{class_node_a01942a792c9a2475c19145253e06ea8c}\label{class_node_a01942a792c9a2475c19145253e06ea8c} 
-\mbox{\hyperlink{class_node}{Node}} \texorpdfstring{$\ast$}{*} {\bfseries prev\+Node}
+\mbox{\hyperlink{class_node}{Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_node_a01942a792c9a2475c19145253e06ea8c}{prev\+Node}}
 \end{DoxyCompactItemize}
 
 
-The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\doxysubsection{Opis szczegółowy}
+Klasa \doxylink{class_node}{Node}. 
+
+Klasa ta reprezentuje węzeł w liście. Zawiera zawartość oraz wskaźniki na kolejne elementy. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\Hypertarget{class_node_a2c5fe4ecef1aa9623d740582b1425c16}\index{Node@{Node}!Node@{Node}}
+\index{Node@{Node}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{Node()}{Node()}}
+{\footnotesize\ttfamily \label{class_node_a2c5fe4ecef1aa9623d740582b1425c16} 
+Node\+::\+Node (\begin{DoxyParamCaption}\item[{int}]{value}{}\end{DoxyParamCaption})}
+
+Konstruktor Klasy 
+\begin{DoxyParams}{Parametry}
+{\em value} & wartość która będzie przypisana do węzła. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja atrybutów składowych}
+\Hypertarget{class_node_ae64451cd6c118b6fe8369cb36bc9af06}\index{Node@{Node}!nextNode@{nextNode}}
+\index{nextNode@{nextNode}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{nextNode}{nextNode}}
+{\footnotesize\ttfamily \label{class_node_ae64451cd6c118b6fe8369cb36bc9af06} 
+\mbox{\hyperlink{class_node}{Node}}\texorpdfstring{$\ast$}{*} Node\+::next\+Node}
+
+Wskaźnik na następny element listy \Hypertarget{class_node_a01942a792c9a2475c19145253e06ea8c}\index{Node@{Node}!prevNode@{prevNode}}
+\index{prevNode@{prevNode}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{prevNode}{prevNode}}
+{\footnotesize\ttfamily \label{class_node_a01942a792c9a2475c19145253e06ea8c} 
+\mbox{\hyperlink{class_node}{Node}}\texorpdfstring{$\ast$}{*} Node\+::prev\+Node}
+
+Wskaźnik na poprzedni element listy \Hypertarget{class_node_aaa0cd30d78a90c5a6ab64eb3d58b8f87}\index{Node@{Node}!value@{value}}
+\index{value@{value}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{value}{value}}
+{\footnotesize\ttfamily \label{class_node_aaa0cd30d78a90c5a6ab64eb3d58b8f87} 
+int Node\+::value}
+
+Zmienna która będzie przechowywać naszą zawartość węzła 
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
 \item 
 Node.\+h\item 
 Node.\+cpp\end{DoxyCompactItemize}

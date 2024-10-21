@@ -1,38 +1,149 @@
-\doxysection{Doubly\+Linked\+List Class Reference}
+\doxysection{Dokumentacja klasy Doubly\+Linked\+List}
 \hypertarget{class_doubly_linked_list}{}\label{class_doubly_linked_list}\index{DoublyLinkedList@{DoublyLinkedList}}
-\doxysubsubsection*{Public Member Functions}
+
+
+Klasa \doxylink{class_doubly_linked_list}{Doubly\+Linked\+List}.  
+
+
+
+
+{\ttfamily \#include $<$Doubly\+Linked\+List.\+h$>$}
+
+\doxysubsubsection*{Metody publiczne}
 \begin{DoxyCompactItemize}
 \item 
-\Hypertarget{class_doubly_linked_list_ae13fee1fce658bffc819ec3530e6630a}\label{class_doubly_linked_list_ae13fee1fce658bffc819ec3530e6630a} 
-void {\bfseries insert\+At\+Start} (int value)
+\mbox{\hyperlink{class_doubly_linked_list_a64b759ca82ca4b7767f42ba5691575f5}{Doubly\+Linked\+List}} ()
 \item 
-\Hypertarget{class_doubly_linked_list_ab5e49cfaab56112afced682962b82529}\label{class_doubly_linked_list_ab5e49cfaab56112afced682962b82529} 
-void {\bfseries insert\+At\+End} (int value)
+void \mbox{\hyperlink{class_doubly_linked_list_ae13fee1fce658bffc819ec3530e6630a}{insert\+At\+Start}} (int value)
 \item 
-\Hypertarget{class_doubly_linked_list_a10c8b15346a7fd97102f447f5da12185}\label{class_doubly_linked_list_a10c8b15346a7fd97102f447f5da12185} 
-void {\bfseries insert\+Index} (int value, int pos)
+void \mbox{\hyperlink{class_doubly_linked_list_ab5e49cfaab56112afced682962b82529}{insert\+At\+End}} (int value)
 \item 
-\Hypertarget{class_doubly_linked_list_a027f49c4f2c4f3963c32e4e989fb6113}\label{class_doubly_linked_list_a027f49c4f2c4f3963c32e4e989fb6113} 
-void {\bfseries delete\+At\+Start} ()
+void \mbox{\hyperlink{class_doubly_linked_list_a10c8b15346a7fd97102f447f5da12185}{insert\+Index}} (int value, int pos)
 \item 
-\Hypertarget{class_doubly_linked_list_af1bd872257a30d7f07e96f16fa8d55dc}\label{class_doubly_linked_list_af1bd872257a30d7f07e96f16fa8d55dc} 
-void {\bfseries delete\+At\+End} ()
+void \mbox{\hyperlink{class_doubly_linked_list_a027f49c4f2c4f3963c32e4e989fb6113}{delete\+At\+Start}} ()
 \item 
-\Hypertarget{class_doubly_linked_list_ab3c1bccccfeb71f9376127bb7c39a7c5}\label{class_doubly_linked_list_ab3c1bccccfeb71f9376127bb7c39a7c5} 
-void {\bfseries delete\+Index} (int pos)
+void \mbox{\hyperlink{class_doubly_linked_list_af1bd872257a30d7f07e96f16fa8d55dc}{delete\+At\+End}} ()
 \item 
-\Hypertarget{class_doubly_linked_list_a9bdd0a62bc7a21a5a6860a31b2562464}\label{class_doubly_linked_list_a9bdd0a62bc7a21a5a6860a31b2562464} 
-void {\bfseries show\+List} ()
+void \mbox{\hyperlink{class_doubly_linked_list_ab3c1bccccfeb71f9376127bb7c39a7c5}{delete\+Index}} (int pos)
 \item 
-\Hypertarget{class_doubly_linked_list_a08d08a643176fa5481ba8cbf18eb9ba7}\label{class_doubly_linked_list_a08d08a643176fa5481ba8cbf18eb9ba7} 
-void {\bfseries show\+Reverse\+List} ()
+void \mbox{\hyperlink{class_doubly_linked_list_a9bdd0a62bc7a21a5a6860a31b2562464}{show\+List}} ()
 \item 
-\Hypertarget{class_doubly_linked_list_acb363e64858b3b5a04855a3d73488085}\label{class_doubly_linked_list_acb363e64858b3b5a04855a3d73488085} 
-void {\bfseries clear\+List} ()
+void \mbox{\hyperlink{class_doubly_linked_list_a08d08a643176fa5481ba8cbf18eb9ba7}{show\+Reverse\+List}} ()
+\item 
+void \mbox{\hyperlink{class_doubly_linked_list_acb363e64858b3b5a04855a3d73488085}{clear\+List}} ()
+\item 
+\mbox{\hyperlink{class_doubly_linked_list_abe3231c8ee3dd956b5261c4148102967}{\texorpdfstring{$\sim$}{\string~}\+Doubly\+Linked\+List}} ()
 \end{DoxyCompactItemize}
 
 
-The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\doxysubsection{Opis szczegółowy}
+Klasa \doxylink{class_doubly_linked_list}{Doubly\+Linked\+List}. 
+
+Klasa ta reprezentuje Listę dwukierunkową Zawiera element \doxylink{class_node}{Node}, który wskazuje head listy. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\Hypertarget{class_doubly_linked_list_a64b759ca82ca4b7767f42ba5691575f5}\index{DoublyLinkedList@{DoublyLinkedList}!DoublyLinkedList@{DoublyLinkedList}}
+\index{DoublyLinkedList@{DoublyLinkedList}!DoublyLinkedList@{DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{DoublyLinkedList()}{DoublyLinkedList()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a64b759ca82ca4b7767f42ba5691575f5} 
+Doubly\+Linked\+List\+::\+Doubly\+Linked\+List (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Konstruktor Klasy. Ustawia head jako nullptr. \Hypertarget{class_doubly_linked_list_abe3231c8ee3dd956b5261c4148102967}\index{DoublyLinkedList@{DoublyLinkedList}!````~DoublyLinkedList@{\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}}
+\index{````~DoublyLinkedList@{\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}!DoublyLinkedList@{DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}DoublyLinkedList()}{\string~DoublyLinkedList()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_abe3231c8ee3dd956b5261c4148102967} 
+Doubly\+Linked\+List\+::\texorpdfstring{$\sim$}{\string~}\+Doubly\+Linked\+List (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Destruktor klasy 
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\Hypertarget{class_doubly_linked_list_acb363e64858b3b5a04855a3d73488085}\index{DoublyLinkedList@{DoublyLinkedList}!clearList@{clearList}}
+\index{clearList@{clearList}!DoublyLinkedList@{DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{clearList()}{clearList()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_acb363e64858b3b5a04855a3d73488085} 
+void Doubly\+Linked\+List\+::clear\+List (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Wyświetlenie listy w odwrotnej kolejności \Hypertarget{class_doubly_linked_list_af1bd872257a30d7f07e96f16fa8d55dc}\index{DoublyLinkedList@{DoublyLinkedList}!deleteAtEnd@{deleteAtEnd}}
+\index{deleteAtEnd@{deleteAtEnd}!DoublyLinkedList@{DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{deleteAtEnd()}{deleteAtEnd()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_af1bd872257a30d7f07e96f16fa8d55dc} 
+void Doubly\+Linked\+List\+::delete\+At\+End (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Usunięcie węzła z końca listy \Hypertarget{class_doubly_linked_list_a027f49c4f2c4f3963c32e4e989fb6113}\index{DoublyLinkedList@{DoublyLinkedList}!deleteAtStart@{deleteAtStart}}
+\index{deleteAtStart@{deleteAtStart}!DoublyLinkedList@{DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{deleteAtStart()}{deleteAtStart()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a027f49c4f2c4f3963c32e4e989fb6113} 
+void Doubly\+Linked\+List\+::delete\+At\+Start (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Usunięcie węzła z początku listy \Hypertarget{class_doubly_linked_list_ab3c1bccccfeb71f9376127bb7c39a7c5}\index{DoublyLinkedList@{DoublyLinkedList}!deleteIndex@{deleteIndex}}
+\index{deleteIndex@{deleteIndex}!DoublyLinkedList@{DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{deleteIndex()}{deleteIndex()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_ab3c1bccccfeb71f9376127bb7c39a7c5} 
+void Doubly\+Linked\+List\+::delete\+Index (\begin{DoxyParamCaption}\item[{int}]{pos}{}\end{DoxyParamCaption})}
+
+Usunięcie węzła z konkretnego indeksu
+
+
+\begin{DoxyParams}{Parametry}
+{\em pos} & pozycja która ma zostać usunięta z listy. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_doubly_linked_list_ab5e49cfaab56112afced682962b82529}\index{DoublyLinkedList@{DoublyLinkedList}!insertAtEnd@{insertAtEnd}}
+\index{insertAtEnd@{insertAtEnd}!DoublyLinkedList@{DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{insertAtEnd()}{insertAtEnd()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_ab5e49cfaab56112afced682962b82529} 
+void Doubly\+Linked\+List\+::insert\+At\+End (\begin{DoxyParamCaption}\item[{int}]{value}{}\end{DoxyParamCaption})}
+
+Wstawianie węzła na końcu listy
+
+
+\begin{DoxyParams}{Parametry}
+{\em value} & wartość która będzie przypisana do węzła. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_doubly_linked_list_ae13fee1fce658bffc819ec3530e6630a}\index{DoublyLinkedList@{DoublyLinkedList}!insertAtStart@{insertAtStart}}
+\index{insertAtStart@{insertAtStart}!DoublyLinkedList@{DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{insertAtStart()}{insertAtStart()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_ae13fee1fce658bffc819ec3530e6630a} 
+void Doubly\+Linked\+List\+::insert\+At\+Start (\begin{DoxyParamCaption}\item[{int}]{value}{}\end{DoxyParamCaption})}
+
+Wstawianie węzła na początku listy
+
+
+\begin{DoxyParams}{Parametry}
+{\em value} & wartość która będzie przypisana do węzła. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_doubly_linked_list_a10c8b15346a7fd97102f447f5da12185}\index{DoublyLinkedList@{DoublyLinkedList}!insertIndex@{insertIndex}}
+\index{insertIndex@{insertIndex}!DoublyLinkedList@{DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{insertIndex()}{insertIndex()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a10c8b15346a7fd97102f447f5da12185} 
+void Doubly\+Linked\+List\+::insert\+Index (\begin{DoxyParamCaption}\item[{int}]{value}{, }\item[{int}]{pos}{}\end{DoxyParamCaption})}
+
+Wstawianie węzła we wskazany indks
+
+
+\begin{DoxyParams}{Parametry}
+{\em value} & wartość która będzie przypisana do węzła. \\
+\hline
+{\em pos} & pozycja na którą ma być wstawiony węzeł \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_doubly_linked_list_a9bdd0a62bc7a21a5a6860a31b2562464}\index{DoublyLinkedList@{DoublyLinkedList}!showList@{showList}}
+\index{showList@{showList}!DoublyLinkedList@{DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{showList()}{showList()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a9bdd0a62bc7a21a5a6860a31b2562464} 
+void Doubly\+Linked\+List\+::show\+List (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Wyświetlenie całej listy \Hypertarget{class_doubly_linked_list_a08d08a643176fa5481ba8cbf18eb9ba7}\index{DoublyLinkedList@{DoublyLinkedList}!showReverseList@{showReverseList}}
+\index{showReverseList@{showReverseList}!DoublyLinkedList@{DoublyLinkedList}}
+\doxysubsubsection{\texorpdfstring{showReverseList()}{showReverseList()}}
+{\footnotesize\ttfamily \label{class_doubly_linked_list_a08d08a643176fa5481ba8cbf18eb9ba7} 
+void Doubly\+Linked\+List\+::show\+Reverse\+List (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+Wyświetlenie listy w odwrotnej kolejności 
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
 \item 
 Doubly\+Linked\+List.\+h\item 
 Doubly\+Linked\+List.\+cpp\end{DoxyCompactItemize}

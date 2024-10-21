@@ -1,9 +1,69 @@
 \begin{theindex}
 
-  \item {DoublyLinkedList}, \hyperpage{5}
+  \item {\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}
+    \subitem {DoublyLinkedList}, \hyperpage{5}
 
   \indexspace
 
-  \item {Node}, \hyperpage{5}
+  \item {clearList}
+    \subitem {DoublyLinkedList}, \hyperpage{6}
+
+  \indexspace
+
+  \item {deleteAtEnd}
+    \subitem {DoublyLinkedList}, \hyperpage{6}
+  \item {deleteAtStart}
+    \subitem {DoublyLinkedList}, \hyperpage{6}
+  \item {deleteIndex}
+    \subitem {DoublyLinkedList}, \hyperpage{6}
+  \item {DoublyLinkedList}, \hyperpage{5}
+    \subitem {\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}, 
+		\hyperpage{5}
+    \subitem {clearList}, \hyperpage{6}
+    \subitem {deleteAtEnd}, \hyperpage{6}
+    \subitem {deleteAtStart}, \hyperpage{6}
+    \subitem {deleteIndex}, \hyperpage{6}
+    \subitem {DoublyLinkedList}, \hyperpage{5}
+    \subitem {insertAtEnd}, \hyperpage{6}
+    \subitem {insertAtStart}, \hyperpage{7}
+    \subitem {insertIndex}, \hyperpage{7}
+    \subitem {showList}, \hyperpage{7}
+    \subitem {showReverseList}, \hyperpage{7}
+
+  \indexspace
+
+  \item {insertAtEnd}
+    \subitem {DoublyLinkedList}, \hyperpage{6}
+  \item {insertAtStart}
+    \subitem {DoublyLinkedList}, \hyperpage{7}
+  \item {insertIndex}
+    \subitem {DoublyLinkedList}, \hyperpage{7}
+
+  \indexspace
+
+  \item {nextNode}
+    \subitem {Node}, \hyperpage{8}
+  \item {Node}, \hyperpage{8}
+    \subitem {nextNode}, \hyperpage{8}
+    \subitem {Node}, \hyperpage{8}
+    \subitem {prevNode}, \hyperpage{8}
+    \subitem {value}, \hyperpage{8}
+
+  \indexspace
+
+  \item {prevNode}
+    \subitem {Node}, \hyperpage{8}
+
+  \indexspace
+
+  \item {showList}
+    \subitem {DoublyLinkedList}, \hyperpage{7}
+  \item {showReverseList}
+    \subitem {DoublyLinkedList}, \hyperpage{7}
+
+  \indexspace
+
+  \item {value}
+    \subitem {Node}, \hyperpage{8}
 
 \end{theindex}
