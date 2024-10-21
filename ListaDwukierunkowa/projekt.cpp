@@ -13,7 +13,7 @@ int main()
     list.showList();
 
     cout << "Dodajmy element na koncu: " << endl;
-    list.insertAtEnd(3);
+    list.insertAtEnd(10);
     list.showList();
 
     cout << "Dodajmy element na 1 indeks (2 miejsce): " << endl;
@@ -24,9 +24,13 @@ int main()
     list.showReverseList();
 
     cout << "Dodajmy jeszcze kilka wartosci: " << endl;
-    list.insertAtEnd(6);
-    list.insertAtEnd(13);
+    list.insertAtEnd(30);
+    list.insertAtEnd(80);
     list.insertAtEnd(10);
+    list.insertAtEnd(66);
+    list.insertAtEnd(77);
+    list.insertAtEnd(100);
+    list.insertAtEnd(120);
     list.insertAtEnd(0);
     list.showList();
 
@@ -46,7 +50,7 @@ int main()
     list.clearList();
     list.showList();
 
-    //
+    
 
     return 0;
 }
