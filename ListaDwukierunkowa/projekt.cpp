@@ -10,6 +10,10 @@ int main()
 
     cout << "Dodajmy element na poczatku: " << endl;
     list.insertAtStart(1);
+    list.insertAtStart(500);
+    list.insertAtStart(666);
+    list.insertAtStart(800);
+    list.insertAtStart(55);
     list.showList();
 
     cout << "Dodajmy element na koncu: " << endl;
