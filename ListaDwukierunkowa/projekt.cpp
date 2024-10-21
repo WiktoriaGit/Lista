@@ -2,21 +2,23 @@
 using namespace std;
 
 
+class Node {
+public:
+    int value;
+    Node* nextNode;
+    Node* prevNode;
+
+    Node(int value)
+    {
+        this->value = value;
+        this->nextNode = nullptr;
+        this->prevNode = nullptr;
+    }
+};
+
 class DoublyLinkedList {
 
-    class Node {
-    public:
-        int value;        
-        Node* nextNode;    
-        Node* prevNode;    
 
-        Node(int value)
-        {
-            this->value = value;
-            this->nextNode = nullptr;
-            this->prevNode = nullptr;
-        }
-    };
 private:
     Node* head;
 
